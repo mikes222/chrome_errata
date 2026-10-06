@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Errata — Report</title>
+  <link rel="stylesheet" href="report.css">
+</head>
+<body>
+  <header class="no-print">
+    <h1>Errata — Corrections</h1>
+    <div class="actions">
+      <button id="export-md">Export Markdown + images</button>
+      <button id="export-md-embed">Export .md (embedded images)</button>
+      <button id="export-json">Export JSON</button>
+      <button id="print">Print / Save as PDF</button>
+      <button id="clear" class="danger">Clear all</button>
+    </div>
+  </header>
+  <div id="empty">No proposals yet. Use the extension popup on a page to capture text.</div>
+  <main id="list"></main>
+  <script src="report.js"></script>
+</body>
+</html>
